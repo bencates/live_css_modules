@@ -1,7 +1,10 @@
-<section class="phx-hero">
+<section class={@styles.hero}>
   <h1>Welcome to Phoenix!</h1>
   <p>Peace of mind from prototype to production</p>
 </section>
+
+<pre><code>@styles = <%= inspect(@styles, pretty: true) %>
+@styles.hero = <%= inspect(@styles.hero) %></code></pre>
 
 <section class="row">
   <article class="column">

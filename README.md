@@ -31,7 +31,7 @@ be found at [https://hexdocs.pm/live_css_modules](https://hexdocs.pm/live_css_mo
 ```
 
 ```elixir
-# thermostat_live.es
+# thermostat_live.ex
 defmodule MyAppWeb.ThermostatLive do
   # If you generated an app with mix phx.new --live,
   # the line below would be: use MyAppWeb, :live_view
